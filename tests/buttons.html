@@ -1,0 +1,79 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>The PURE.CSS Buttons</ion-title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" href = "https://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+      <style>
+         .success,
+         .error,
+         .warning,
+         .secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+         }
+
+         .success {
+            background: rgb(28, 184, 65); /* green */
+         }
+
+         .error {
+            background: rgb(202, 60, 60); /* maroon */
+         }
+
+         .warning {
+            background: rgb(223, 117, 20); /* orange */
+         }
+
+         .secondary {
+            background: rgb(66, 184, 221); /* light blue */
+         }
+
+         .xsmall {
+            font-size: 70%;
+         }
+
+         .small {
+            font-size: 85%;
+         }
+
+         .large {
+            font-size: 110%;
+         }
+
+         .xlarge {
+            font-size: 125%;
+         }
+      </style>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <body>
+    <h2>Standard Buttons</h2>
+     <button class = "pure-button">Click Me</button>
+     <button class = "pure-button pure-button-active">Click Me</button>
+     <button class = "pure-button pure-button-disabled">I am disabled</button>
+
+     <h2>Links as Buttons</h2>
+     <a class = "pure-button">Link</a>
+     <a class = "pure-button pure-button-active">Link</a>
+     <a class = "pure-button pure-button-disabled">Disabled Link</a>
+
+     <h2>Primary Button</h2>
+     <a class = "pure-button pure-button-primary">Submit</a>
+
+     <h2>Customized button</h2>
+     <button class = "pure-button success">Success</button>
+     <button class = "pure-button error">Error</button>
+     <button class = "pure-button warning">Warning</button>
+     <button class = "pure-button secondary">Secondary</button>
+
+     <h2>Different Sized button</h2>
+     <button class = "pure-button xsmall">Extra Small</button>
+     <button class = "pure-button small">Small</button>
+     <button class = "pure-button large">Large</button>
+     <button class = "pure-button xlarge">Extra Large</button>
+  </body>
+</ion-content>
